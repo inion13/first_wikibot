@@ -1,9 +1,9 @@
 import os
 import random
 import wikipedia
+from dotenv import load_dotenv
 from telebot import types, TeleBot
 from wikibot_exceptions import get_exception
-from dotenv import load_dotenv
 
 load_dotenv()
 
